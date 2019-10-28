@@ -1,0 +1,8 @@
+<!--pages/bowuguan/bowuguan.wxml-->
+<view class="content" wx:for="{{ 3 }}">
+  <view class="wenzi">
+    <text>习近平参观庆祝改革开放40周 年大型展览</text>
+    <text>2019-7-10 13:00</text>
+  </view>
+  <view class="tu"><image src="../../icon/renqun.png"></image></view>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/wenwu/wenwu.wxml-->
+<view class="wz1">
+   <text>中国古代文物长期展览，一次看不完，要 多去几次！</text>
+</view>
+<view class="wz2">
+    <text>中国考古博物馆</text>
+    <text>8月1日</text>
+</view>
+<view class="xinxi">
+  <text>中国古代文物</text>
+  <text>展期：长期</text>
+  <text>地点：二层北二区</text>
+  <text>票价：50</text>
+</view>
+<view class="xiangqing">
+   <view class="wenwu"><image src="../../icon/wenwu.png"></image></view>
+   <view class="xiangqingwz2">
+      <text>金瓯永固杯寓意大清的疆土、政权永固。 是清代皇帝每年元旦举行开笔仪式专用酒杯。 每当除夕凌晨子时，清帝在养心殿明窗。 把酒杯放在紫檀长案上，把屠苏酒注入杯内。 把屠苏酒注入杯内，亲燃王烛长调烛台蜡烛。 提起毛笔，书写祈求江山社稷平安永固的吉语。 故金瓯永固杯被清代皇帝视为珍贵的祖传器物。</text>
+      <text>【金瓯永固杯】</text>
+      <view>清</view>
+   </view>
+</view>

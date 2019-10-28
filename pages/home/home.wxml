@@ -1,0 +1,78 @@
+<!--pages/home/home.wxml-->
+<view class="beijing">
+<!-- 返回图标 -->
+<view  bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? ['c-state','cover'] : ''}} "  class="fanhui">
+   <image bindtap="tap_ch" src="http://127.0.0.1:13598/__pageframe__/icon/%E8%BF%94%E5%9B%9E.png"></image>
+</view>
+<!-- 返回图标 -->
+<image class="blackimage" src="http://127.0.0.1:13598/__pageframe__/icon/bg2.png"></image>
+   <!-- 轮播图开始 -->
+<view class="banner">
+   <swiper indicator-dots autoplay interval="2000">
+      <swiper-item  wx:for="{{ banners }}" wx:key="{{ index }}">
+         <image src="{{ item.src }}"></image>
+      </swiper-item>
+   </swiper>
+      <!-- 导航栏开始-->
+   <view class="daohang"> 
+   <navigator url="/pages/home/home">
+      <view class="item current">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/d1.png"></image>
+         <view>概况</view>
+      </view>
+   </navigator>
+   <navigator url="/pages/zixun/zixun">
+      <view class="item" hover-class="current">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/d2.png"style="width:72rpx"></image>
+         <view>咨询</view>
+      </view>
+   </navigator>
+      <view class="item" hover-class="current">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/d3.png" ></image>
+         <view>展览</view>
+      </view>
+      <view class="item" hover-class="current">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/d4.png"></image>
+         <view>我的</view>
+      </view>
+      <view class="item" hover-class="current">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/d5.png"></image>
+         <view>导览</view>
+      </view>
+   </view>
+   <!-- 导航栏结束 -->
+    <!-- 主体内容开始 -->
+   <view class="content">
+      <view class="content1">
+         <image src="../../icon/相框.png"></image>
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/t4.png"></image>
+         <text class="content1wz">【中国考古博物馆】</text>
+         <text class="content1wz2">中国历史研究院是以中国社会科 学院所属相关研究所为基础组建 的国家顶级机构。</text>
+      </view>
+      <view class="content2">
+         <view class="content1">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/%E7%9B%B8%E6%A1%86.png"></image>
+            <image src="http://127.0.0.1:13598/__pageframe__/icon/t5.png"></image>
+            <text class="content1wz">【主要职能】</text>
+            <text class="content1wz2">中国历史研究院是以中国社会科 学院所属相关研究所为基础组建 的国家顶级机构。</text>
+         </view>
+      </view>
+      <view class="content3">
+         <view class="content1">
+         <image src="http://127.0.0.1:13598/__pageframe__/icon/%E7%9B%B8%E6%A1%86.png"></image>
+            <image src="../../icon/t6.png"></image>
+            <text class="content1wz">【领导祝贺】</text>
+            <text class="content1wz3-2">值此中国社会科学院中国历史研究院成立之际，我代表党中央，向你们表示热烈的祝贺！向全国广大历史研究工作者致以诚挚的问候！
+   　　历史是一面镜子，鉴古知今，学史明智。重视历史、研究历史、借鉴历史是中华民族5000多年文明史的一个优良传统。当代中国是历史中国的延续和发展。新时代坚持和发展中国特色社会主义，更加需要系统研究中国历史和文化，更加需要深刻把握人类发展历史规律，在对历史的深入思考中汲取智慧、走向未来。</text>
+         </view>
+      </view>
+   </view>
+   <!-- 主体内容结束 -->
+</view>
+<!-- 轮播图结束 -->
+
+
+
+  
+   
+</view>

@@ -1,0 +1,20 @@
+{
+   "pages": [
+      "pages/zixun/zixun",
+      "pages/home/home",
+      "pages/bowuguan/bowuguan",
+      "pages/wode/wode",
+      "pages/canguan/canguan",
+      "pages/wenwu/wenwu",
+      "pages/zhanlan/zhanlan",
+      "pages/index/index",
+      "pages/logs/logs"
+   ],
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#fff",
+      "navigationBarTitleText": "中国考古博物馆",
+      "navigationBarTextStyle": "black"
+   },
+   "sitemapLocation": "sitemap.json"
+}

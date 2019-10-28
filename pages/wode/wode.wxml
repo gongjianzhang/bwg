@@ -1,0 +1,48 @@
+<!--pages/wode/wode.wxml-->
+<view bindtap='click'>点击</view>
+<view hidden="{{hiddenName}}">
+
+   <view class="beijing1" >
+      <image class="blackimage1" src="../../icon/bg4.png"></image>
+      <view class="touxiang">
+         <image src="../../icon/touxiangkuang.png"></image>
+         <image src="../../icon/touxiang.png"></image>
+      </view>
+      <text class="shoujihao">135****4675</text>
+      <text class="xuxian">- - - - - - - - - - - - - - -</text>
+      <view class="content">
+         <view class="content1">
+            <image src="../../icon/t10.png"></image>
+            <text>概况</text>
+         </view>
+         <view class="content1">
+            <image src="../../icon/t11.png"></image>
+            <text>资讯</text>
+         </view>
+         <view class="content1">
+            <image src="../../icon/t12.png"></image>
+            <text>展览</text>
+         </view>
+         <view class="content1">
+            <image src="../../icon/t13.png"></image>
+            <text>预约</text>
+         </view>
+      </view>
+      <text class="xuxian2">- - - - - - - - - - - - - - -</text>
+      <view class="footer">
+         <view class="footertop">个人中心</view>
+         <view class="footercontent">
+            <image src="../../icon/t14.png"></image>
+            <text>我的预约</text>
+         </view>
+         <view class="footercontent">
+            <image src="../../icon/t15.png"></image>
+            <text>参观者信息</text> 
+         </view>
+         <view class="footercontent">
+            <image src="../../icon/t16.png"></image>
+            <text>我的客服</text>
+         </view>
+      </view>
+   </view>
+</view>

@@ -1,0 +1,151 @@
+/* pages/wode/wode.wxss */
+.beijing1{
+   position: relative;
+   width: 366rpx;
+    height: 1290rpx;
+    display: flex;
+    flex-direction: column;
+    animation: myfirst_show 2s;
+}
+.blackimage1{
+   position: absolute;
+   top: -20rpx;
+   bottom: 0rpx;
+   width: 100%;
+   height: 100%;
+   z-index: -999;
+}
+.touxiang{
+   
+   height: 153rpx;
+   width: 153rpx;
+   margin: 90rpx;
+   display: inline-block;
+   position: relative;
+}
+.touxiang image{
+   width: 100%;
+   height: 100%;
+}
+.touxiang image:nth-child(2){
+   display: inline-block;
+   position: absolute;
+   margin-top: 10rpx;
+   margin-left: -143rpx;
+   width: 133rpx;
+   height: 133rpx;
+}
+.shoujihao{
+   
+   margin-left: 90rpx;
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:500;
+   color:rgba(102,102,102,1);
+   width: 160rpx;
+   margin-top: -60rpx;
+}
+.xuxian{
+   margin-left: 30rpx;
+   font-size:28rpx;
+   font-family:PingFang SC;
+   color:rgba(102,102,102,1);
+   font-weight: bold;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   
+   height: 428rpx;
+   width: 272rpx;
+   margin: 40rpx;
+}
+.content1{
+   display: flex;
+   flex-direction: row;
+ 
+   height: 33rpx;
+   width: 150rpx;
+   margin:60rpx 0 0 30rpx;
+}
+.content1 image{
+   width: 33rpx;
+   height: 33rpx;
+}
+.content1 text{
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:500;
+   color:rgba(102,102,102,1);
+   margin-left: 16rpx;
+   line-height: 33rpx;
+}
+.xuxian2{
+   margin-left: 30rpx;
+   margin-top: -50rpx;
+   font-size:28rpx;
+   font-family:PingFang SC;
+   color:rgba(102,102,102,1);
+   font-weight: bold;
+}
+.footer{
+   
+   width: 272rpx;
+   margin-left: 40rpx;
+   display: flex;
+   flex-direction: column;
+}
+.footertop{ 
+   margin-left: 20rpx;
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:500;
+   color:rgba(102,102,102,1);
+   margin-top: 40rpx;
+   
+}
+.footercontent{
+   height: 26rpx;
+   width: 200rpx;
+   display: flex;
+   margin-left: 30rpx;
+  
+   margin-top: 40rpx;
+}
+.footercontent image{
+   width: 32rpx;
+   height: 30rpx;
+}
+.footercontent text{
+   line-height: 30rpx;
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:500;
+   color:rgba(102,102,102,1);
+   margin-left: 15rpx;
+}
+
+.show {
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  animation: myfirst_show 2s;
+  display: block;
+}
+@keyframes myfirst_show
+{
+0% {left:-70%;}
+100% {left: 0px;}
+}
+.hide{
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  animation: myfirst_hide 2s;
+  display: none;
+}
+@keyframes myfirst_hide
+{
+0% {left:0;}
+100% {left: -70%;}
+}

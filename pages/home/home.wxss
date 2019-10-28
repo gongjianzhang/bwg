@@ -1,0 +1,171 @@
+/* pages/home/home.wxss */
+/* 侧边栏开始 */
+
+ 
+/* 侧边栏样式 */
+
+/* 控制侧边栏的内容距离顶部的距离 */
+.page-content {
+    padding-top: 60rpx;
+}
+ 
+/* 侧边栏内容的 css 样式 */
+.wc {
+    color:black;
+    padding: 30rpx 0 30rpx 150rpx;
+    border-bottom: 1px solid #eee; 
+}
+.c-state {
+    transform: rotate(0deg) scale(1) translate(60%, 0%);
+    -webkit-transform: rotate(0deg) scale(1) translate(60%, 0%);
+}
+/* 左上角图标的样式 */
+.page-top image {
+   /* background-color: blue; */
+   border: 1px solid blue;
+   transition: All 0.4s ease;
+   -webkit-transition: All 0.4s ease;
+   position: fixed;
+   z-index: 999;
+   display: flex;
+   align-items: center;
+   margin-top: 440rpx;
+    width: 45rpx;
+   height: 115rpx;
+}
+.fanhui{
+   /* background-color: blue; */
+   
+   transition: All 0.4s ease;
+   -webkit-transition: All 0.4s ease;
+   position: fixed;
+   width: 70rpx;
+   height: 20%;
+   z-index: 999;
+   display: flex;
+   align-items: center;
+   margin-top: 440rpx;
+}
+.fanhui image{
+   width: 45rpx;
+   height: 115rpx;
+}
+/* 遮盖层 */
+.cover{
+    width: 100%;
+    height: 100%;
+    background-color:gray;
+    opacity: 0.5;
+    z-index: 9000;
+}
+ 
+.content{
+    margin-top: 100rpx; 
+} 
+/* 侧边栏结束 */
+.banner{
+   width: 100%;
+   height: 100%;
+}
+.banner swiper image{
+   width: 750rpx;
+   height: 382rpx;
+}
+.daohang{
+   width:750rpx;
+   height:177rpx;
+   background:rgba(246,246,246,1);
+   display: flex;
+flex-wrap: wrap;
+}
+.item current{
+   background: #E9DCD6;
+   
+}
+.current{
+   background-color: #E9DCD6;
+}
+.daohang .item{
+flex-shrink: 0;
+width: 150rpx;
+height: 177rpx;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+color: #7F7F7F;
+font-size: 14px;
+}
+.daohang .item image{
+   width: 50rpx;
+   height: 48rpx;
+   margin-bottom: 20rpx;
+   margin-top: 20rpx;
+}
+
+.beijing{
+   position: relative;
+   width: 750rpx;
+    height: 2150rpx;   
+}
+.blackimage{
+   position: absolute;
+   top: 0rpx;
+   bottom: 0rpx;
+   width: 100%;
+   height: 100%;
+   z-index: -999;
+}
+.content{
+   width: 750rpx;
+   height: 1550rpx;
+}
+.content1{
+   width: 750rpx;
+   height: 380rpx; 
+}
+.content1 image{
+   width: 210rpx;
+   height: 210rpx;
+   margin: 90rpx 0 0 30rpx;
+   position: relative;
+}
+.content1 image:nth-child(2){
+   width: 175rpx;
+   height: 175rpx;
+   margin: 108rpx 0 0 -192rpx;
+   position: absolute;
+}
+.content1wz{
+   position: absolute;
+   margin: 90rpx 0 0 50rpx;
+   color: #5C4237;
+   font-family: PingFang-SC-Medium;
+   font-size: 34rpx;
+   font-weight: Medium;
+}
+.content1wz2{
+    position: absolute;
+   margin: 150rpx 0 0 60rpx;
+   color: #797979;
+   font-family: STXinwei;
+   font-size: 28rpx;
+   font-weight: Regular;
+   width: 400rpx;
+}
+.content2{
+   width: 750rpx;
+   height: 380rpx; 
+}
+.content3{
+   width: 750rpx;
+}
+.content1wz3-2{
+   position: absolute;
+   margin: 150rpx 0 0 60rpx;
+   color: #797979;
+   font-family: STXinwei;
+   font-size: 30rpx;
+   font-weight: Regular;
+   width: 350rpx;
+}

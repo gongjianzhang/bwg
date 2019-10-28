@@ -1,0 +1,65 @@
+<!--pages/home/home.wxml-->
+<view class="backview">
+<!-- 轮播图开始 -->
+<view class="banner">
+<swiper indicator-dots autoplay interval="2000">
+   <swiper-item  wx:for="{{ banners }}" wx:key="{{ index }}">
+      <image src="{{ item.src }}"></image>
+   </swiper-item>
+</swiper>
+</view>
+<!-- 轮播图结束 -->
+
+<!-- 导航栏开始-->
+<view class="daohang"> 
+<navigator url="/pages/home/home">
+   <view class="item" hover-class="current">
+      <image src="../../icon/d1.png"></image>
+      <view>概况</view>
+   </view>
+</navigator>
+  <navigator url="/pages/zixun/zixun">
+   <view class="item current">
+      <image src="../../icon/d2.png"style="width:72rpx"></image>
+      <view>咨询</view>
+   </view>
+</navigator>
+   <view class="item" hover-class="current">
+      <image src="../../icon/d3.png" ></image>
+      <view>展览</view>
+   </view>
+   <view class="item" hover-class="current">
+      <image src="../../icon/d4.png"></image>
+      <view>我的</view>
+   </view>
+   <view class="item" hover-class="current">
+      <image src="../../icon/d5.png"></image>
+      <view>导览</view>
+   </view>
+</view>
+<!-- 导航栏结束 -->
+<!-- 主体内容开始 -->
+<view class="content" wx:for="{{ con_data1 }}" wx:key="{{ index }}">
+   <view class="content1">
+      <view class="content1left">
+         <image src="../../icon/tubiao.png"></image>
+         <view class="content1wz">{{ item.class_name }}</view>
+      </view>
+       <view class="content1right">
+       <navigator url="/pages/bowuguan/bowuguan"><view class="content1rightwz">全部</view></navigator>
+      <image src="http://127.0.0.1:13598/__pageframe__/icon/jiantou.png"></image>
+      </view>
+   </view>
+   <view class="content2" wx:for="{{ item.content }}"wx:for-item="content" wx:key="id">
+      <view class="content2wz">{{ content.title }}</view>
+      <view class="content2sj">{{ content.create_time }}</view>
+      <view class="content2tp"><image src="../../icon/renqun.png"></image></view>
+   </view>
+   <view class="content3" wx:for="{{ item.content }}"wx:for-item="content" wx:key="id">
+      <view class="content2wz">{{ content.title }}</view>
+      <view class="content2sj">{{ content.create_time }}</view>
+      <view class="content2tp"><image src="../../icon/renqun2.png"></image></view>
+   </view>
+</view>
+<!-- 主体内容结束 -->
+</view>

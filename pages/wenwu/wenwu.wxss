@@ -1,0 +1,130 @@
+/* pages/wenwu/wenwu.wxss */
+.wz1{
+   
+   width: 670rpx;
+   height: 94rpx;
+   margin: 56rpx 22rpx 45rpx 57rpx;
+   font-size: 36rpx;
+   font-family:  PingFang-SC-Bold;
+   color: #444444;
+   font-weight: Bold;
+   line-height: 55rpx;
+}
+.wz2 text:nth-child(1){
+   color: #C5691F;
+   font-family: PingFang-SC-Bold;
+   font-size: 34rpx;
+   font-weight: Bold;
+   width: 231rpx;
+   margin-left: 57rpx;
+}
+.wz2 text:nth-child(2){
+   font-family: PingFang-SC-Bold;
+   font-size: 34rpx;
+   font-weight: Bold;
+   color: #999999;
+   width: 110rpx;
+   margin-left: 40rpx;
+}
+.xinxi{border: 1px solid #CDCDCD;
+box-shadow: 0.4rpx 0.4rpx 0.4rpx 0.4rpx #000000;
+   width: 670rpx;
+   height: 246rpx;
+   margin-left: 57rpx;
+   margin-top: 54rpx;
+   display: flex;
+   flex-direction: column;
+}
+.xinxi text:nth-child(1){
+border-bottom:1px solid #CDCDCD;
+   color: #444444;
+   font-family: PingFang-SC-Bold;
+   font-weight: bold;
+   font-size: 36rpx;
+   text-align: center;
+   line-height: 85rpx;
+   height: 85rpx;
+   width: 629rpx;
+  margin-left: 15rpx;
+}
+.xinxi text:nth-child(2){
+   color: #444444;
+   font-family: PingFang-SC-Bold;
+   font-weight: bold;
+   font-size: 28rpx;
+   text-align: center;  
+   margin-top: 10rpx;
+}
+.xinxi text:nth-child(3){
+   color: #444444;
+   font-family: PingFang-SC-Bold;
+   font-weight: bold;
+   font-size: 28rpx;
+   text-align: center;  
+   margin-top: 8rpx;
+}
+.xinxi text:nth-child(4){
+   color: #444444;
+   font-family: PingFang-SC-Bold;
+   font-weight: bold;
+   font-size: 28rpx;
+   text-align: center; 
+   margin-top: 8rpx; 
+}
+.xiangqing{border: 1px solid red;
+   height: 1375rpx;
+   width: 750rpx;
+   background:rgba(246,235,229,1);
+   display: flex;
+   flex-direction: column;
+}
+.xiangqing view:nth-child(1){
+   background-color: #F6EBE5;
+   width: 600rpx;
+   height: 512rpx;
+   margin-top: 40rpx;
+   margin-left: 80rpx;
+}
+.xiangqingwz2{
+   display: flex;
+   flex-direction: column;
+}
+.xiangqingwz2 text:nth-child(1){
+   height: 300rpx;
+  
+   line-height: 45rpx;
+   font-size:34rpx;
+   font-family:STXinwei;
+   font-weight:400;
+   color:rgba(102,102,102,1);
+   margin-top: 50rpx;
+}
+.xiangqingwz2 text:nth-child(2){
+   font-size:54rpx;
+   font-family:PingFang SC;
+   font-weight:bold;
+   color:rgba(123,83,74,1);
+   height: 80rpx;
+   width: 500rpx;
+   display: flex;
+   justify-content: center;
+   margin-top: 50rpx;
+}
+.xiangqingwz2 view{
+   width: 45rpx;
+   height: 45rpx;
+   background:rgba(198,184,123,1);
+   border-radius:50%;
+   font-size:34rpx;
+   font-family:STXinwei;
+   font-weight:400;
+   color:rgba(255,255,255,1);
+   text-align: center;
+   line-height: 45rpx;
+   margin-left: 490rpx;
+   margin-top: -65rpx;
+}
+.wenwu image{
+  width: 100%;
+  height: 100%;
+}

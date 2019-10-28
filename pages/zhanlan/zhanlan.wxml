@@ -1,0 +1,23 @@
+<!--pages/zhanlan/zhanlan.wxml-->
+<view class="beijing">
+   <image class="blackimage" src="../../icon/bg2.png"></image>
+   <image class="toptu" src="../../icon/t7.png"></image>
+   <view class="content">
+      <view><image src="../../icon/t8.png"></image></view>
+      <view>中国考古博物馆</view>
+      <view><image src="../../icon/仙鹤.png"></image></view>
+   </view>
+   <view class="contet2">
+      <view class="yizhihua"><image src="../../icon/一枝花.png"></image></view>
+      <text>固定展览</text>
+      <text>临时展览</text>
+   </view>
+   <view class="footer">
+      <view class="footertop">
+         <view>【中国古代文物】</view>
+         <view>详情></view>
+      </view>
+      <view class="footercontent"><image src="../../icon/t9.png"></image></view>   
+      <view class="footerttext">共2090件文物，缀连起中国从远古到清末的漫长历史进程，彰显了中华名族在政治，经济，文化诸方面所取得的辉煌成绩和对人类文明的伟大贡献。</view>
+   </view>
+</view>

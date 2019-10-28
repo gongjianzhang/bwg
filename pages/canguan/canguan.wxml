@@ -1,0 +1,10 @@
+<!--pages/canguan/canguan.wxml-->
+<view class="top">
+   <text>习近平参观庆祝改革开放40周年大型展览</text>
+   <text>2019-4-8  13:00</text>
+</view>
+<view class="wz1">习近平在参观“伟大的变革——庆祝改革 开放40周年大型展览”时强调</view>
+<view class="wz2">统一思想凝聚共识鼓舞斗志团结奋斗</view>
+<view class="wz2">坚定全国各族人民跟党走中国特色社会主义道路改革开放道路的信心和决心</view>
+<view class="wz2">栗战书汪洋王沪宁赵乐际韩正王岐山参观展览</view>
+<view class="footertu"><image src="../../icon/renqun3.png"></image></view>

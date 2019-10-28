@@ -1,0 +1,135 @@
+/* pages/zhanlan/zhanlan.wxss */
+.beijing{
+   position: relative;
+   width: 750rpx;
+    height: 1300rpx;   
+}
+.blackimage{
+   position: absolute;
+   top: 0rpx;
+   bottom: 0rpx;
+   width: 100%;
+   height: 100%;
+   z-index: -99;
+}
+.toptu{
+   width: 750rpx;
+   height: 358rpx;
+   
+}
+.content{
+   
+   height: 164rpx;
+   display: flex;
+   flex-direction: row;
+}
+.content view:nth-child(1){
+   width: 103rpx;
+   height: 103rpx;
+   margin-top: 35rpx;
+   margin-left: 36rpx;
+   background:rgba(166,123,55,1);
+   border-radius:50%;
+}
+.content view:nth-child(1) image{
+   width: 55rpx;
+   height: 60rpx;
+   position: absolute;
+   margin-left: 25rpx;
+   margin-top: 20rpx;
+}
+.content view:nth-child(2){
+   
+width:320rpx;
+height:41rpx;
+font-size:44rpx;
+font-family:STXinwei;
+font-weight:400;
+color:rgba(166,123,55,1);
+line-height:41rpx;
+margin-left: 22rpx;
+margin-top: 65rpx;
+}
+.content view:nth-child(3){
+    width: 252rpx;
+    height: 164rpx;
+}
+.content view:nth-child(3) image{
+   width: 100%;
+   height: 100%;
+}
+.contet2{
+   display: flex;
+   flex-direction: row;
+}
+.yizhihua{
+   margin-top: -50rpx;
+   width: 200rpx;
+   height: 200rpx;
+}
+.yizhihua image{
+   width: 100%;
+   height: 100%;
+}
+.contet2 text:nth-child(2){ border-bottom:  2px solid #A67B37;
+   width:150rpx;
+   height:31rpx;
+   line-height: 31rpx;
+   font-size:36rpx;
+   font-family:STXinwei;
+   font-weight:400;
+   color:rgba(166,123,55,1);
+   margin-top: 60rpx;
+   margin-left: -20rpx;
+   padding-bottom: 7rpx;
+}
+.contet2 text:nth-child(3){ 
+   width:150rpx;
+   height:30rpx;
+   font-size:36rpx;
+   font-family:STXinwei;
+   font-weight:400;
+   color:rgba(102,102,102,1);
+   margin-top: 60rpx;
+   margin-left: 70rpx;
+}
+.footer{
+   width:660rpx;
+   height:574rpx;
+   border:2px solid rgba(166, 123, 55, 0.26);
+   /* opacity:0.23; */
+   margin-left: 33rpx;
+}
+.footertop{
+   display: flex;
+   justify-content: space-between;
+   padding: 17rpx;
+   font-size:36rpx;
+   font-family:PingFang SC;
+   font-weight:400;
+   color:rgba(102,102,102,1);
+}
+.footertop view:nth-child(2){
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:400;
+   color:rgba(153,153,153,1);
+}
+.footercontent{
+   width: 609rpx;
+   height: 232rpx;
+   
+   margin: 25rpx;
+}
+.footercontent image{
+   width: 100%;
+   height: 100%;
+}
+.footerttext{
+   
+   font-size:28rpx;
+   font-family:PingFang SC;
+   font-weight:400;
+   color:rgba(102,102,102,1);
+   margin: 30rpx;
+}
